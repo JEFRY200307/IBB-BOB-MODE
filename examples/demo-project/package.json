@@ -1,0 +1,32 @@
+{
+  "name": "bobsentinel-demo",
+  "version": "1.0.0",
+  "description": "Demo project showing BobSentinel regression prevention",
+  "main": "src/pricing.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "bobsentinel",
+    "demo",
+    "testing",
+    "regression-prevention"
+  ],
+  "author": "BobSentinel Team",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coverageDirectory": "coverage",
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "testMatch": [
+      "**/tests/**/*.test.js"
+    ]
+  }
+}
